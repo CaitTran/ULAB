@@ -1,0 +1,23 @@
+pwd (print working directory)
+ls music
+nano ~/music/patterns.txt
+cat patterns.txt
+Filecmp (doesn’t say specific differences) or difflib (tells you differences)
+mv  ~/music/patterns.txt ~/math/calculus
+rm ~math/geometry/triangle.txt
+cd ../math
+git init
+git add remote origin (SSH link from remote repo on GitHub)
+cp ~/music/symmetry.txt ~/math/
+git status; No because it’s not in the staging area
+git add symmetry.txt; git add .
+Yes
+git commit -m “symmetry.txt to math repo”
+git push origin main; because the work was done on the main branch
+git branch applied_math
+git checkout applied_math
+git add . ; git commit -m “new directory (physics) & mechanics.txt” ; git push origin applied_math ; if you switched back to your original branch before committing git won’t understand where/in which branch you want your new information saved.
+git branch; applied_math
+git checkout main
+git merge???
+(numbers didn't paste but assume going from #1-#22, thank you & sorry!)
