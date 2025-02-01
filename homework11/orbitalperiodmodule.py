@@ -1,0 +1,8 @@
+import numpy as np
+import time as time
+import matplotlib.pyplot as plt
+
+def orbital_periods(a):
+    #Uses NumPy to return orbital period given semi-major axis
+    period_T = np.sqrt(a**3)
+    return period_T
